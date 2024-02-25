@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title ></title>
+</head>
+<body>
+
+	<h1 >Datos Persona</h1>
+	
+	<h3 th:text="'Cédula: ' + ${persona.cedula}"></h3>
+	<h3 th:text="'Nombre: ' + ${persona.nombre}"></h3>
+	<h3 th:text="'Apellido: ' + ${persona.apellido}"></h3>
+	<h3 th:text="'Fecha: ' + ${persona.fecha}"></h3>
+	<h3 th:text="'Estado: ' + ${persona.estado}"></h3>
+</body>
+</html>
